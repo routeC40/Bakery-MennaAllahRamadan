@@ -1,0 +1,307 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+    /*  start header */
+
+.homesecton{
+    background-image: url(../images/bekary.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 100vh;
+}
+
+    /*  color on background image */
+
+.layout{
+    background-color: rgba(0,0,0,.3);
+    height: 100%;
+}
+.container{
+    margin: auto;
+    width: 90%;
+}
+    /* navbar */
+.navbar .logo{
+    display: inline-block;
+    width: 10%;
+    vertical-align: middle;
+}
+.navbar .logo img{
+    width:100% ;
+}
+.navbar .list{
+    width: 89%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+.navbar .list ul{
+    color: #fff;
+    font-family: Alegreya,serif,monospace;
+
+}
+.navbar .list ul li{
+    display: inline-block;
+    padding: 30px 15px;
+
+}
+
+   /*  Content Section */
+
+.contentsection{
+    text-align: center;
+    margin: 120px 0;
+}
+.contentsection p{
+    color: #ccc;
+    font-size: 24px;
+    margin: 0px 0px 40px;
+    font-family: sans-serif;
+}
+
+.contentsection h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.contentsection .btn{
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+
+}
+.contentsection .fullcolor{
+    background-color: #8e7754;
+    border: none;
+}
+
+.contentsection .outline{
+    border: 2px solid white;
+    background-color: transparent;
+}
+.contentsection .btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+    /*  end header */
+
+  
+ /* padding top & bottom section  in page */
+
+.paddingsection{
+    padding: 40px 0;
+}
+
+  /*  start description section */
+
+.pic1 , .text1 {
+    padding: 15px 23px 0;
+
+}
+.pic1{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+}
+
+.pic1 img{
+    width: 100%;
+}
+
+.text1{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text1 h2{
+    margin-bottom: 30px;
+}
+
+/*  general style to paragragh */
+p{
+    color: #686868;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: Alegreya Sans,sans-serif,monospace;
+}
+
+.text1 ul{
+    text-align: left;
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+
+.icons p i{ 
+    border: 0.5px solid #929292;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 5px;
+    color: #8e7754;
+
+}
+
+  /*  end description section */
+
+   /*  start location section  */
+ 
+.locationsection , .Contactsection{
+    background-color: #f8f8f8;
+
+}
+
+  /*  end location section */
+
+   /* start Baking section   */
+
+.Bakingsection .header{
+    text-align: center;
+}
+.Bakingsection .header h2{
+    margin-bottom: 30px;
+}
+
+.Bakingsection .poster .block{
+    width: 33.33%;
+    text-align: center;
+    padding: 5px 25px;
+    float: left;
+    
+ }
+.Bakingsection .poster .block img{
+    width: 100%;
+ }
+ .clr{
+    clear: both;
+ }
+.Bakingsection .poster .block h4{
+    margin: 10px 0;
+}
+
+  /* end Baking section   */
+
+
+    /* start Contact section    */
+
+.Contactsection .icons i{
+    background-color: #8e7754;
+    color: #fff;
+    border: none;
+  }
+.Contactsection .text2{
+    text-align: left;
+}
+.Contactsection .pic1 img{
+    width: 85%;
+}
+ 
+/* end Contact section    */
+
+/* start top footer   */
+
+.topfooter{
+    background: #403d38;
+}
+.topfooter .about{
+    width: 25%;
+    float: left;
+    padding: 7px;
+
+}
+.topfooter .about h4{
+    font-size: 20px;
+    margin: 10px 0px 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.topfooter .about p{
+    font-size: 18px;
+    color: #969696;
+}
+.topfooter .about .list li{
+    border-bottom: 1px solid #303030;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #969696;
+    font-size: 23px;
+    display: flex;
+}
+.topfooter .about .list i{
+    padding: 0px 10px;
+}
+
+/* end top footer   */
+
+/* start footer   */
+
+.footer{
+    background: #353330;
+    text-align: center;
+}
+.footer img{
+    width: 20%;
+    margin-bottom: 20px;
+}
+.footer p{
+    font-size: 14px;
+    color: #969696;
+    font-family: serif;
+
+}
+.footer li{
+    display: inline-block;
+    background: #484540;
+    border-radius: 50%;
+    padding: 15px 0px;
+    width: 45px;
+}
+.footer li:first-of-type:hover{
+   background: #3b5998;
+}
+
+.footer li:nth-of-type(2):hover{
+    background: #dd4b32;  
+}
+.footer li:nth-of-type(3):hover{
+    background: #007bb5;  
+}
+.footer li:nth-of-type(4):hover{
+    background: #00aced;  
+}
+
+.footer li:hover i{
+    color: #fff;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #969696;
+}
+
+/* end footer   */
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
